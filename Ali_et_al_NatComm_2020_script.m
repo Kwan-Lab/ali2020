@@ -82,6 +82,11 @@ ylabel('Cumulative fraction');
 % xline(0); %for Matlab 2018a and above
 
 %% Fig. 2d-e
+% Note the amplitude and frequency plots here are slightly different than
+% the figures presented in the manuscript. This is because here we binned
+% calcium events in 1-second bin, whereas in the manuscript the figures
+% were generated using calcium events in 0.28-second bins (i.e. the frame
+% rate)
 
 clearvars;
 load Fig2d-e.mat
@@ -150,6 +155,11 @@ ylabel('Cumulative fraction');
 % xline(0); %for Matlab 2018a and above
 
 %% Fig. 3b-c
+% Note the amplitude and frequency plots here are slightly different than
+% the figures presented in the manuscript. This is because here we binned
+% calcium events in 1-second bin, whereas in the manuscript the figures
+% were generated using calcium events in 0.28-second bins (i.e. the frame
+% rate)
 
 clearvars;
 load Fig3b-c.mat
